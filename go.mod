@@ -1,4 +1,4 @@
-module github.com/replicatedhq/krew-plugin-template
+module github.com/vimalpatel19/kubectl-simple
 
 go 1.16
 
