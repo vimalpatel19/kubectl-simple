@@ -145,6 +145,7 @@ func GetPodLogs(clientset *kubernetes.Clientset, grep, container, pod, namespace
 		}
 	}
 
+	fmt.Println()
 	return nil
 }
 
