@@ -25,7 +25,7 @@ func (l *Logger) Info(msg string, args ...interface{}) {
 
 func (l *Logger) Error(err error) {
 	c := color.New(color.FgHiRed)
-	c.Println(fmt.Sprintf("%#v", err))
+	c.Println(fmt.Sprintf("%s", err))
 }
 
 func (l *Logger) Instructions(msg string, args ...interface{}) {
